@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+  <defs>
+    <radialGradient id="h1" cx="52%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#1f1a0a"/>
+      <stop offset="50%" stop-color="#0c0c0c"/>
+      <stop offset="100%" stop-color="#000"/>
+    </radialGradient>
+    <radialGradient id="h2" cx="78%" cy="68%" r="40%">
+      <stop offset="0%" stop-color="#f4ce14" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#f4ce14" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#h1)"/>
+  <rect width="1920" height="1080" fill="url(#h2)"/>
+  <g fill="none" stroke="#f4ce14" stroke-opacity="0.14">
+    <circle cx="960" cy="520" r="380" stroke-width="1.2"/>
+    <circle cx="960" cy="520" r="260" stroke-width="1"/>
+    <circle cx="960" cy="520" r="140" stroke-width="0.9"/>
+  </g>
+  <circle cx="960" cy="520" r="48" fill="#f4ce14" fill-opacity="0.22"/>
+  <g stroke="#f4ce14" stroke-opacity="0.06" stroke-width="0.8">
+    <line x1="0" y1="520" x2="1920" y2="520"/>
+    <line x1="960" y1="0" x2="960" y2="1080"/>
+  </g>
+</svg>
